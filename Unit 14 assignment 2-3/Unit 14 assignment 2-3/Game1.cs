@@ -29,7 +29,8 @@ namespace Unit_14_assignment_2_3
         cButton btnOptions;
         cButton btnExit;
         string btnTextPlay = "Play";
-        string btnTextOptions = "options";
+        string btnTextOptions = "Options";
+        string btnTextExit = "Exit";
 
         public Game1()
         {
@@ -115,6 +116,10 @@ namespace Unit_14_assignment_2_3
                         CurentGameState = Gamestate.Options;
                         
                     }
+                    else if(btnExit.isClicked == true)
+                    {
+                        Exit();
+                    }
                     btnOptions.Update(mouse);
                     btnExit.Update(mouse);
                     btnPlay.Update(mouse);
@@ -147,9 +152,12 @@ namespace Unit_14_assignment_2_3
             //finds the center of the string in coordanates in side the rectangle
             Vector2 textPlayMiddlePoint = mainMenuFont.MeasureString(btnTextPlay);
             Vector2 textOptionsMiddlePoint = mainMenuFont.MeasureString(btnTextOptions);
+            Vector2 textExitMiddlePoint = mainMenuFont.MeasureString(btnTextExit);
            //places text in the center of the screen
             Vector2 textPlayPosition = new Vector2(475, 230);
-            Vector2 textOptionsPosition = new Vector2(520, 380);
+            Vector2 textOptionsPosition = new Vector2(523, 380);
+            Vector2 textExitPosition = new Vector2(467, 530);
+
         
             switch (CurentGameState)
             {
@@ -158,8 +166,10 @@ namespace Unit_14_assignment_2_3
                     spriteBatch.Draw(Content.Load<Texture2D>("spaceBackground"), new Rectangle(0, 0, screenWidth, screenHeight),new Rectangle(0,0,screenWidth,screenHeight), Color.White,0f, new Vector2(0,0), SpriteEffects.None, 1f);
                     btnPlay.Draw(spriteBatch);
                     btnOptions.Draw(spriteBatch);
+                    btnExit.Draw(spriteBatch);
                     spriteBatch.DrawString(mainMenuFont, btnTextPlay, textPlayPosition, Color.White, 0, textPlayMiddlePoint, 1.0f, SpriteEffects.None, 0.4f);
                     spriteBatch.DrawString(mainMenuFont, btnTextOptions, textOptionsPosition, Color.White, 0, textOptionsMiddlePoint, 1.0f, SpriteEffects.None, 0.4f);
+                    spriteBatch.DrawString(mainMenuFont, btnTextExit, textExitPosition, Color.White, 0, textExitMiddlePoint, 1.0f, SpriteEffects.None, 0.4f);
                     spriteBatch.Draw(Content.Load<Texture2D>("mainMenu"), new Rectangle(120, 50, logoWidth, logoHeight),new Rectangle(0,0,logoWidth*2,logoHeight*2), Color.White, 0f, new Vector2(0, 0), SpriteEffects.None,1f);
                     break;
 
