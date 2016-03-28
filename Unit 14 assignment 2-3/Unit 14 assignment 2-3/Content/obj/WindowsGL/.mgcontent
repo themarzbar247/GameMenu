@@ -4,9 +4,9 @@
   <Platform>WindowsGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/button.png</File>
-    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/mainMenu.png</File>
-    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/spaceBackground.jpg</File>
-    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/MainMenuFont.spritefont</File>
+    <File>C:/Users/Wonko The Sane/Documents/GitHub/GameMenu/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/button.png</File>
+    <File>C:/Users/Wonko The Sane/Documents/GitHub/GameMenu/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/mainMenu.png</File>
+    <File>C:/Users/Wonko The Sane/Documents/GitHub/GameMenu/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/spaceBackground.jpg</File>
+    <File>C:/Users/Wonko The Sane/Documents/GitHub/GameMenu/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/MainMenuFont.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>

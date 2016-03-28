@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/MainMenuFont.spritefont</SourceFile>
+  <SourceFile>C:/Users/Wonko The Sane/Documents/GitHub/GameMenu/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/MainMenuFont.spritefont</SourceFile>
   <SourceTime>2016-03-28T19:06:33.4110091+01:00</SourceTime>
-  <DestFile>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/bin/WindowsGL/MainMenuFont.xnb</DestFile>
-  <DestTime>2016-03-28T19:06:37.9706439+01:00</DestTime>
+  <DestFile>C:/Users/Wonko The Sane/Documents/GitHub/GameMenu/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/bin/WindowsGL/MainMenuFont.xnb</DestFile>
+  <DestTime>2016-03-28T21:04:47.945943+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2015-04-29T18:14:44+01:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
