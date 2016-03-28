@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>WindowsGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/button.png</File>
+    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/mainMenu.png</File>
+    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/spaceBackground.jpg</File>
+    <File>C:/Users/Wonko The Sane/documents/visual studio 2015/Projects/Unit 14 assignment 2-3/Unit 14 assignment 2-3/Content/MainMenuFont.spritefont</File>
+  </SourceFiles>
+</SourceFileCollection>
